@@ -1,0 +1,63 @@
+Eğitim sonucunda elde edilen sınıflandırma modellerinin klasör isimleri aşağıdaki gibi ayarlanmalıdır:
+
+	model-55
+	model-65
+	model-75
+	model-85
+	hasta-model-55
+	hasta-model-65
+	hasta-model-75
+	hasta-model-85
+
+Eğitim sonucunda elde edilen segmentasyon modelinin klasör ismi aşağıdaki gibi ayarlanmalıdır:
+
+	segmentation-model
+
+Segmentasyon modelinin eğitilebilmesi için veri seti kfold klasör yapısına uygun olacak şekilde aşağıdaki gibi ayarlanmalıdır.
+
+kfold
+	fold1
+		train
+			json
+				birlesik_veri.json
+			*.png
+		val
+			json
+				birlesik_veri.json
+			*.png
+	fold2
+		train
+			json
+				birlesik_veri.json
+			*.png
+		val
+			json
+				birlesik_veri.json
+			*.png
+	fold3
+		train
+			json
+				birlesik_veri.json
+			*.png
+		val
+			json
+				birlesik_veri.json
+			*.png
+	fold4
+		train
+			json
+				birlesik_veri.json
+			*.png
+		val
+			json
+				birlesik_veri.json
+			*.png
+	fold5
+		train
+			json
+				birlesik_veri.json
+			*.png
+		val
+			json
+				birlesik_veri.json
+			*.png

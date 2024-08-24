@@ -1,0 +1,5 @@
+1- Misc klasöründe bulunan Açıklama.txt dosyasının içerisindeki yüklenmesi gereken dosya ve kütüphaneler indirilmelidir.
+2- Kullanıcının proje yapısına uygun bir şekilde dosyaların pathleri, kodda gerekli yerlerde tanımlanmalıdır.
+3- Segmentasyon ve sınıflandırma modellerinin veri kümeleri kfold klasör yapısına uygun olacak şekilde hazırlanmalı ve eğitim yapılmalıdır.
+4- Modellerin dosya isimleri ve pathleri gui kodlarında tanımlanmalıdır.
+5- main-gui.py aracılığı ile kod çalıştırılmalıdır.
